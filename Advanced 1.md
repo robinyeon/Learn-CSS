@@ -24,7 +24,7 @@ transformation does not affect other box elements.
 
 ## Animations
 without state like :hover. playing all the tiem > animations
-
+1. 
 ```
 <style>
 @keyframes nameoftheanimation{
@@ -41,7 +41,7 @@ img {
 }
 </style>
 ```
-
+2.
 ```
 <style>
 @keyframes nameoftheanimation{
@@ -61,5 +61,22 @@ img {
 }
 </style>
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
