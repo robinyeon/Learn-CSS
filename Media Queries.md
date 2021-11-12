@@ -1,31 +1,35 @@
-telling the browser 'if the screen size is this big, show this css'
-with only CSS, detect size of the screen of the person looking at your website.
-portrait(폰세로), landscape(폰가로)
+## Media Query
+- Telling the browser to show specific CSS on specific screen size.
+- With only CSS, detecting the users' screen size who's visiting your website.
+- `portrait` vertical mode, `landscape` horizontal mode.
+
+<br/>
+
 ```
 @media screen and (max-width: 400px) {
-  
+ /* CSS code here*/ 
 }
 ```
-if the screen have less than 400px, then shows CSS code inside {} curly bracket
+- means "if these conditions are true then execute these CSS."
+- In the above code: if the screen have less than 400px, then shows CSS code inside {} curly bracket.
 
+<br/>
 
-
+### You can change conditions:
 ```
 @media screen and (min-width:100px) and (max-width: 400px) {
-  div {
-  
-  }
+  /* CSS code here*/ 
 }
 ```
-can change conditions
-``` and (orientation: landscape)``` 폰가로일때만 적용되는 조건
 
-if these conditions are true then execute these CSS
+<br/>
 
+### For landscape mode:
+``` and (orientation: landscape)```
 
+<br/>
 
-
-
-media type 
-@media mediatype and (...) and ...
-mediatype normally `screen` or `print`
+## Media type 
+`@media mediatype and (...){ }`
+- mediatypes are normally `screen` or `print`
+- `print` is for print mode. (cmd+p)
